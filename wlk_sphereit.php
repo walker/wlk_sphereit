@@ -6,8 +6,7 @@ $plugin['description'] = 'Put the sphereIt! widget on your site.';
 
 $plugin['type'] = 0;
 
-
-@include_once('zem_tpl.php');
+@include_once(dirname(dirname(__FILE__)).'/zem_tpl.php');
 
 if(0) {
 ?>
